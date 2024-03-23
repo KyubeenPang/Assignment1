@@ -26,6 +26,7 @@
 
 .container .date {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     height: 30px;
     width: 80%;
@@ -185,10 +186,17 @@
         padding-top: 5px;
     }
 
-    #my-form .container2{
+    .container #my-form .container2{
         width: 100%;
         font-size: 12px;
+        
     }
+
+    .container #my-form #inputText {
+        display: flex;
+        flex-direction: column;
+    }
+    
 
     #my-form .container2 .form-label {
         padding-top: 5px;
